@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 508, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 72
+  controlID: 92
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 284
     height: 441
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -151,7 +151,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 777
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 73
+  controlID: 93
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 74
+  controlID: 94
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -341,7 +341,7 @@ MonoBehaviour:
       name: Test Project
       fullName: Test Project
       resultStatus: 1
-      duration: 0.1894527
+      duration: 0.3017866
       messages: 
       output: 
       stacktrace: 
@@ -355,7 +355,7 @@ MonoBehaviour:
       name: EditTests.dll
       fullName: /Users/matsulab/testunity/Test Project/Library/ScriptAssemblies/EditTests.dll
       resultStatus: 1
-      duration: 0.1167035
+      duration: 0.245111
       messages: 
       output: 
       stacktrace: 
@@ -369,7 +369,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 0.1102171
+      duration: 0.2267485
       messages: 
       output: 
       stacktrace: 
@@ -379,11 +379,55 @@ MonoBehaviour:
       isSuite: 1
       categories: []
       parentID: '[/Users/matsulab/testunity/Test Project/Library/ScriptAssemblies/EditTests.dll][suite]'
+    - id: '[EditTests][Tests.NewTestScriptEdit][suite]'
+      name: NewTestScriptEdit
+      fullName: Tests.NewTestScriptEdit
+      resultStatus: 1
+      duration: 0.0503003
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: '[Tests][suite]'
+    - id: '[EditTests][Tests.NewTestScriptEdit.MyClassTest1]'
+      name: MyClassTest1
+      fullName: Tests.NewTestScriptEdit.MyClassTest1
+      resultStatus: 1
+      duration: 0.0253198
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[EditTests][Tests.NewTestScriptEdit][suite]'
+    - id: '[EditTests][Tests.NewTestScriptEdit.MyClassTest2]'
+      name: MyClassTest2
+      fullName: Tests.NewTestScriptEdit.MyClassTest2
+      resultStatus: 1
+      duration: 0.0005674
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[EditTests][Tests.NewTestScriptEdit][suite]'
     - id: '[EditTests][Tests.TestScript][suite]'
       name: TestScript
       fullName: Tests.TestScript
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1177326
       messages: 
       output: 
       stacktrace: 
@@ -396,8 +440,8 @@ MonoBehaviour:
     - id: '[EditTests][Tests.TestScript.TestScriptSimplePasses]'
       name: TestScriptSimplePasses
       fullName: Tests.TestScript.TestScriptSimplePasses
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.000911
       messages: 
       output: 
       stacktrace: 
@@ -411,8 +455,8 @@ MonoBehaviour:
     - id: '[EditTests][Tests.TestScript.TestScriptWithEnumeratorPasses]'
       name: TestScriptWithEnumeratorPasses
       fullName: Tests.TestScript.TestScriptWithEnumeratorPasses
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0677318
       messages: 
       output: 
       stacktrace: 
@@ -427,7 +471,7 @@ MonoBehaviour:
       name: TestScript1
       fullName: Tests.TestScript1
       resultStatus: 1
-      duration: 0.1013018
+      duration: 0.0462938
       messages: 
       output: 
       stacktrace: 
@@ -441,7 +485,7 @@ MonoBehaviour:
       name: TestScript1SimplePasses
       fullName: Tests.TestScript1.TestScript1SimplePasses
       resultStatus: 1
-      duration: 0.014843
+      duration: 0.0025326
       messages: 
       output: 
       stacktrace: 
@@ -456,7 +500,7 @@ MonoBehaviour:
       name: TestScript1WithEnumeratorPasses
       fullName: Tests.TestScript1.TestScript1WithEnumeratorPasses
       resultStatus: 1
-      duration: 0.0570906
+      duration: 0.0296476
       messages: 
       output: 
       stacktrace: 
@@ -467,7 +511,7 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[EditTests][Tests.TestScript1][suite]'
-    m_ResultText: TestScript1 (0.101s)
+    m_ResultText: TestScript1 (0.046s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -563,20 +607,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Test/EditTests
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Test/EditTests
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/matsulab/testunity/Test Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5a0a0000
-    m_LastClickedID: 2650
-    m_ExpandedIDs: 000000007c090000ac09000000ca9a3b
+    m_SelectedIDs: 7e090000
+    m_LastClickedID: 2430
+    m_ExpandedIDs: 000000007e090000ae09000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -604,7 +648,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c090000ac090000
+    m_ExpandedIDs: 000000007e090000ae090000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -723,9 +767,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 240a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: defbffff
+      m_ExpandedIDs: 64f9ffffdefbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -903,7 +947,7 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 860, y: 421}
+  m_LastWindowPixelSize: {x: 1720, y: 842}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
